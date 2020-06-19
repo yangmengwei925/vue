@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#root,html,body{
+    width:100%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+     flex-direction: column;
+}
+.header{
+    width:100%;
+    height: 50px;
+    line-height: 50px;
+    background: pink;
+    text-align: center;
+}
+.main{
+    flex:1;
+    overflow: auto;
+    width:100%
+}
+.footer{
+    width:100%;
+    height: 150px;
+   line-height: 50px;
+    background: salmon;
+    text-align: center;
+    position: fixed;
+    bottom:0
+}

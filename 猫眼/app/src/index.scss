@@ -1,0 +1,319 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html,body,#root,.layout,.login,.search,.my，Ing,.cinema{
+  width: 100%;
+  height: 100%;
+}
+header {
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  background: red;
+  color: #fff;
+}
+.layout header{
+  text-align: center;
+}
+.layout{
+  display: flex;
+  flex-direction: column;
+  .movie,.cinema,.my{
+    flex: 1;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .movie nav{
+    width:100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .movie dl{
+    width: 200px;
+    height: 60px;;
+  }
+  .movie nav dl dt img{
+    width:60px;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 10px;
+  }
+  .movie nav>button{
+    width:70px;
+    height: 40px;
+    outline: none;
+    border:0;
+    margin-top: 10px;
+    color:#fff;
+    text-align: center;
+  }
+  .movie nav dd{
+    margin-top: 5px;
+  }
+ nav dl dd>.eye{
+    font-size: 100px;
+    color:#999
+  }
+  .movie header{
+    text-align: center;
+  }
+  .hot {
+    flex: 1;
+    overflow: auto;
+    .wrapper{
+      width:100%;
+      height: 100%;
+    }
+    .mid{
+      width:170px;
+      display: flex;
+      flex-wrap: wrap;
+      overflow: auto;
+    }
+    .item{
+      width: 100%;
+      display: flex;
+      .left,.right{
+        flex: 1;
+        text-align: center;
+      }
+      button{
+        outline: none;
+      }
+    }
+  }
+  .name{
+    width:150px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    flex-wrap: wrap;
+  }
+  .people{
+    color:goldenrod
+  }
+  .tabbar{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .tabbar a{
+    color:black
+  }
+  .tabbar .search{
+    width:20px;
+    height: 20px;
+    border-radius:red
+  }
+  .red{
+    background: red;
+  }
+  .green{
+    background: green;
+  }
+  footer{
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-around;
+    a{
+      flex: 1;
+      text-align: center;
+    }
+  }
+}
+
+button{
+  width:60px;
+  height: 50px;
+  background: red;
+  color:#fff;
+  text-align: center;
+  border-radius: 10px;
+}
+.address{
+  width:100%;
+  height: 100%;
+  display: flex;
+  background: #eee;
+  flex-direction: column;
+  overflow: auto;
+  position: relative;
+}
+.address h2{
+  width:100%;
+  height: 30px;
+  font-size: 14px;
+  line-height: 30px;
+  background: #ccc;
+}
+.address h3{
+  width:80%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #000;
+  background: #eee;
+  margin:10px 50px
+}
+.hot_city{
+ width:100%;
+ height: 30px;
+ line-height: 30px;
+ background: darkgray;
+}
+.address span{
+  display: inline-block;
+  width:33%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 10px;
+  background:#666;
+  color:#000
+}
+.address h4{
+  background: #eee;
+  border-bottom: 1px solid #999;
+}
+.tabBar{
+  width: 50px;
+  height: 100%;
+  line-height: 20px;
+  position: absolute;
+  top:200px;
+  right:30px
+}
+.tabBar h2{
+  width:100px;
+  height: 60px;
+  line-height: 60px;
+    text-align: center;
+}
+.tabBar span{
+  display: inline-block;
+  width:100px;
+  line-height: 50px;
+
+}
+.movie p{
+  background: #fff;
+}
+.movie .tabbar .active{
+  background: red;
+  color: #fff;
+}
+footer .active{
+  background: green;
+  color: #fff;
+
+}
+.search{
+  width:100%;
+  height:100%;
+  background: #ccc;
+  display: flex;
+  flex-direction: column;
+}
+header{
+  width:100%;
+  height: 36px;
+  line-height: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+.search header img{
+  width:20px;
+  height: 20px;
+}
+.search input{
+  width:80%;
+  height: 50px;
+  padding: 0 20px;
+  margin-top: 10px;
+}
+.search button{
+  background: #ccc;
+  color:red;
+  width:60px;
+  height: 50px;
+  text-align: center;
+  outline: none;
+}
+.my .head{
+  width:100%;
+  height: 36px;
+  line-height: 36px;
+  justify-content: center;
+}
+.my .head img{
+  width:20px;
+  height: 20px;;
+  margin-top: 10px;
+  color:#ccc;
+  text-align: center;
+}
+.left{
+  flex:2
+}
+.right{
+  flex:6;
+  text-align: center;
+}
+.my nav{
+  width:100%;
+  height: 50px;
+  line-height: 50px;
+  background: #fff;
+  color:#000;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 3px solid #999;
+  
+}
+.my nav span {
+ display: inline-block;
+  flex:5;
+  text-align: center;
+}
+.my nav>.active{
+  width:50px;
+  height: 50px;
+  color:red;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 3px solid yellow;
+}
+.my main{
+  flex:1;
+  overflow: auto;
+  // background: #eee;
+}
+p{
+   background:#eee;
+   margin-top: 10px;
+}
+.my main>input{
+  display: block;
+  width:100%;
+  height: 50px;
+  outline: none;
+  margin-top: 5px;
+  border-bottom: 1px solid #666;
+}
+.Ing header{
+  width:100%;
+  height: 30px;
+  line-height: 30px;
+  
+}

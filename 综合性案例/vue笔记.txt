@@ -1,0 +1,48 @@
+
+vue是什么？
+1、是一个渐进式的框架
+2、关注数据，数据驱动视图
+3、数据的双向绑定（Object.definepropty() ）对象是访问器对象（...）
+4、MVVM框架
+5、diff算法
+6、SPA（Single Page Application） 单页应用   优缺点  以及  多页应用的优缺点
+  
+
+
+路由
+1、路由守卫
+2、配路由--路由懒加载   ()=>import('../')          import('../')
+3、路由传参
+
+vuex
+1、管理公用数据
+2、刷新页面数据丢失
+
+组件
+1、传参（父传子、子传父、非父子）
+2、组件嵌套
+
+生命周期
+8个
+
+指令
+1、自定义指令
+2、已有的指令
+v-for="item in arr" :key='index'
+v-if(不生成dom)  v-else
+v-show (生成dom，display:none)
+v-on:click='demo'
+v-bind 绑定动态属性   v-bind:src='item.img'
+v-model  form表单上用的
+
+作业：购物车
+
+插件
+1、自己会定义插件
+2、会使用第三方插件
+
+过渡
+1、会使用动画效果
+2、至少会使用css去定义简单的动画
+
+

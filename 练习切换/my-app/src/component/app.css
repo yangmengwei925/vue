@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#root,html,body,.wrap{
+    width:100%;
+    height: 100%;
+    background: #ccc;
+    display: flex;
+  
+   
+}
+
+.left{
+    width:180px;
+    height: 100%;
+    background: #eee;
+     float:left
+}
+.left span{
+    width:100%;
+    height: 100px;
+    line-height: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+.active{
+    color:red
+}
+.right {
+    float: left;
+}
+p{
+    line-height: 150px;
+}
